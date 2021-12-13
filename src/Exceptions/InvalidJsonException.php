@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Exceptions;
+namespace dxmb\Modules\Exceptions;
 
 class InvalidJsonException extends \Exception
 {

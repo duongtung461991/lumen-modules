@@ -1,9 +1,9 @@
 <?php
 
-namespace DXMB\Modules\Generators;
+namespace dxmb\Modules\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use DXMB\Modules\Exceptions\FileAlreadyExistException;
+use dxmb\Modules\Exceptions\FileAlreadyExistException;
 
 class FileGenerator extends Generator
 {

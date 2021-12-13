@@ -1,9 +1,9 @@
 <?php
 
-namespace DXMB\Modules\Providers;
+namespace dxmb\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use DXMB\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Contracts\RepositoryInterface;
 
 class BootstrapServiceProvider extends ServiceProvider
 {

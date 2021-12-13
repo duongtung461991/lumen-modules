@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Contracts\RepositoryInterface;
-use DXMB\Modules\Module;
+use dxmb\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Module;
 
 class LaravelModulesV6Migrator extends Command
 {

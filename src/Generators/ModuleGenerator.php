@@ -1,15 +1,15 @@
 <?php
 
-namespace DXMB\Modules\Generators;
+namespace dxmb\Modules\Generators;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use DXMB\Modules\Contracts\ActivatorInterface;
-use DXMB\Modules\FileRepository;
-use DXMB\Modules\Support\Config\GenerateConfigReader;
-use DXMB\Modules\Support\Stub;
+use dxmb\Modules\Contracts\ActivatorInterface;
+use dxmb\Modules\FileRepository;
+use dxmb\Modules\Support\Config\GenerateConfigReader;
+use dxmb\Modules\Support\Stub;
 
 class ModuleGenerator extends Generator
 {
@@ -51,7 +51,7 @@ class ModuleGenerator extends Generator
     /**
      * The module instance.
      *
-     * @var \DXMB\Modules\Module
+     * @var \dxmb\Modules\Module
      */
     protected $module;
 
@@ -227,7 +227,7 @@ class ModuleGenerator extends Generator
     /**
      * Get the module instance.
      *
-     * @return \DXMB\Modules\Module
+     * @return \dxmb\Modules\Module
      */
     public function getModule()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Exceptions\FileAlreadyExistException;
-use DXMB\Modules\Generators\FileGenerator;
+use dxmb\Modules\Exceptions\FileAlreadyExistException;
+use dxmb\Modules\Generators\FileGenerator;
 
 abstract class GeneratorCommand extends Command
 {
@@ -79,7 +79,7 @@ abstract class GeneratorCommand extends Command
     /**
      * Get class namespace.
      *
-     * @param \DXMB\Modules\Module $module
+     * @param \dxmb\Modules\Module $module
      *
      * @return string
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Support;
+namespace dxmb\Modules\Support;
 
 class Stub
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Providers;
+namespace dxmb\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use DXMB\Modules\Contracts\RepositoryInterface;
-use DXMB\Modules\Laravel\LaravelFileRepository;
+use dxmb\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Laravel\LaravelFileRepository;
 
 class ContractsServiceProvider extends ServiceProvider
 {

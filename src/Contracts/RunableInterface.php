@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Contracts;
+namespace dxmb\Modules\Contracts;
 
 interface RunableInterface
 {

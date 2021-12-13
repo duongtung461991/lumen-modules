@@ -1,8 +1,8 @@
 <?php
 
-namespace DXMB\Modules\Laravel;
+namespace dxmb\Modules\Laravel;
 
-use DXMB\Modules\FileRepository;
+use dxmb\Modules\FileRepository;
 
 class LaravelFileRepository extends FileRepository
 {

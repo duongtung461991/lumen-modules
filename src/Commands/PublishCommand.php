@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Module;
-use DXMB\Modules\Publishing\AssetPublisher;
+use dxmb\Modules\Module;
+use dxmb\Modules\Publishing\AssetPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishCommand extends Command

@@ -1,52 +1,52 @@
 <?php
 
-namespace DXMB\Modules\Providers;
+namespace dxmb\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use DXMB\Modules\Commands\CommandMakeCommand;
-use DXMB\Modules\Commands\ComponentClassMakeCommand;
-use DXMB\Modules\Commands\ComponentViewMakeCommand;
-use DXMB\Modules\Commands\ControllerMakeCommand;
-use DXMB\Modules\Commands\DisableCommand;
-use DXMB\Modules\Commands\DumpCommand;
-use DXMB\Modules\Commands\EnableCommand;
-use DXMB\Modules\Commands\EventMakeCommand;
-use DXMB\Modules\Commands\FactoryMakeCommand;
-use DXMB\Modules\Commands\InstallCommand;
-use DXMB\Modules\Commands\JobMakeCommand;
-use DXMB\Modules\Commands\LaravelModulesV6Migrator;
-use DXMB\Modules\Commands\ListCommand;
-use DXMB\Modules\Commands\ListenerMakeCommand;
-use DXMB\Modules\Commands\MailMakeCommand;
-use DXMB\Modules\Commands\MiddlewareMakeCommand;
-use DXMB\Modules\Commands\MigrateCommand;
-use DXMB\Modules\Commands\MigrateRefreshCommand;
-use DXMB\Modules\Commands\MigrateResetCommand;
-use DXMB\Modules\Commands\MigrateRollbackCommand;
-use DXMB\Modules\Commands\MigrateStatusCommand;
-use DXMB\Modules\Commands\MigrationMakeCommand;
-use DXMB\Modules\Commands\ModelMakeCommand;
-use DXMB\Modules\Commands\ModuleDeleteCommand;
-use DXMB\Modules\Commands\ModuleMakeCommand;
-use DXMB\Modules\Commands\NotificationMakeCommand;
-use DXMB\Modules\Commands\PolicyMakeCommand;
-use DXMB\Modules\Commands\ProviderMakeCommand;
-use DXMB\Modules\Commands\PublishCommand;
-use DXMB\Modules\Commands\PublishConfigurationCommand;
-use DXMB\Modules\Commands\PublishMigrationCommand;
-use DXMB\Modules\Commands\PublishTranslationCommand;
-use DXMB\Modules\Commands\RequestMakeCommand;
-use DXMB\Modules\Commands\ResourceMakeCommand;
-use DXMB\Modules\Commands\RouteProviderMakeCommand;
-use DXMB\Modules\Commands\RuleMakeCommand;
-use DXMB\Modules\Commands\SeedCommand;
-use DXMB\Modules\Commands\SeedMakeCommand;
-use DXMB\Modules\Commands\SetupCommand;
-use DXMB\Modules\Commands\TestMakeCommand;
-use DXMB\Modules\Commands\UnUseCommand;
-use DXMB\Modules\Commands\UpdateCommand;
-use DXMB\Modules\Commands\UseCommand;
+use dxmb\Modules\Commands\CommandMakeCommand;
+use dxmb\Modules\Commands\ComponentClassMakeCommand;
+use dxmb\Modules\Commands\ComponentViewMakeCommand;
+use dxmb\Modules\Commands\ControllerMakeCommand;
+use dxmb\Modules\Commands\DisableCommand;
+use dxmb\Modules\Commands\DumpCommand;
+use dxmb\Modules\Commands\EnableCommand;
+use dxmb\Modules\Commands\EventMakeCommand;
+use dxmb\Modules\Commands\FactoryMakeCommand;
+use dxmb\Modules\Commands\InstallCommand;
+use dxmb\Modules\Commands\JobMakeCommand;
+use dxmb\Modules\Commands\LaravelModulesV6Migrator;
+use dxmb\Modules\Commands\ListCommand;
+use dxmb\Modules\Commands\ListenerMakeCommand;
+use dxmb\Modules\Commands\MailMakeCommand;
+use dxmb\Modules\Commands\MiddlewareMakeCommand;
+use dxmb\Modules\Commands\MigrateCommand;
+use dxmb\Modules\Commands\MigrateRefreshCommand;
+use dxmb\Modules\Commands\MigrateResetCommand;
+use dxmb\Modules\Commands\MigrateRollbackCommand;
+use dxmb\Modules\Commands\MigrateStatusCommand;
+use dxmb\Modules\Commands\MigrationMakeCommand;
+use dxmb\Modules\Commands\ModelMakeCommand;
+use dxmb\Modules\Commands\ModuleDeleteCommand;
+use dxmb\Modules\Commands\ModuleMakeCommand;
+use dxmb\Modules\Commands\NotificationMakeCommand;
+use dxmb\Modules\Commands\PolicyMakeCommand;
+use dxmb\Modules\Commands\ProviderMakeCommand;
+use dxmb\Modules\Commands\PublishCommand;
+use dxmb\Modules\Commands\PublishConfigurationCommand;
+use dxmb\Modules\Commands\PublishMigrationCommand;
+use dxmb\Modules\Commands\PublishTranslationCommand;
+use dxmb\Modules\Commands\RequestMakeCommand;
+use dxmb\Modules\Commands\ResourceMakeCommand;
+use dxmb\Modules\Commands\RouteProviderMakeCommand;
+use dxmb\Modules\Commands\RuleMakeCommand;
+use dxmb\Modules\Commands\SeedCommand;
+use dxmb\Modules\Commands\SeedMakeCommand;
+use dxmb\Modules\Commands\SetupCommand;
+use dxmb\Modules\Commands\TestMakeCommand;
+use dxmb\Modules\Commands\UnUseCommand;
+use dxmb\Modules\Commands\UpdateCommand;
+use dxmb\Modules\Commands\UseCommand;
 
 class ConsoleServiceProvider extends ServiceProvider
 {
@@ -54,7 +54,7 @@ class ConsoleServiceProvider extends ServiceProvider
      * Namespace of the console commands
      * @var string
      */
-    protected $consoleNamespace = "DXMB\\Modules\\Commands";
+    protected $consoleNamespace = "dxmb\\Modules\\Commands";
 
     /**
      * The available commands

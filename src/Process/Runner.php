@@ -1,9 +1,9 @@
 <?php
 
-namespace DXMB\Modules\Process;
+namespace dxmb\Modules\Process;
 
-use DXMB\Modules\Contracts\RepositoryInterface;
-use DXMB\Modules\Contracts\RunableInterface;
+use dxmb\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Contracts\RunableInterface;
 
 class Runner implements RunableInterface
 {

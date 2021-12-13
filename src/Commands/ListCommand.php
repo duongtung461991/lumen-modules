@@ -1,9 +1,9 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Module;
+use dxmb\Modules\Module;
 use Symfony\Component\Console\Input\InputOption;
 
 class ListCommand extends Command

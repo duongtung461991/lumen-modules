@@ -1,11 +1,11 @@
 <?php
 
-namespace DXMB\Modules;
+namespace dxmb\Modules;
 
 use Illuminate\Support\ServiceProvider;
-use DXMB\Modules\Providers\BootstrapServiceProvider;
-use DXMB\Modules\Providers\ConsoleServiceProvider;
-use DXMB\Modules\Providers\ContractsServiceProvider;
+use dxmb\Modules\Providers\BootstrapServiceProvider;
+use dxmb\Modules\Providers\ConsoleServiceProvider;
+use dxmb\Modules\Providers\ContractsServiceProvider;
 
 abstract class ModulesServiceProvider extends ServiceProvider
 {

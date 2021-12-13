@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Generators;
+namespace dxmb\Modules\Generators;
 
 abstract class Generator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules;
+namespace dxmb\Modules;
 
 use Countable;
 use Illuminate\Cache\CacheManager;
@@ -10,11 +10,11 @@ use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use DXMB\Modules\Contracts\RepositoryInterface;
-use DXMB\Modules\Exceptions\InvalidAssetPath;
-use DXMB\Modules\Exceptions\ModuleNotFoundException;
-use DXMB\Modules\Process\Installer;
-use DXMB\Modules\Process\Updater;
+use dxmb\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Exceptions\InvalidAssetPath;
+use dxmb\Modules\Exceptions\ModuleNotFoundException;
+use dxmb\Modules\Process\Installer;
+use dxmb\Modules\Process\Updater;
 
 abstract class FileRepository implements RepositoryInterface, Countable
 {
@@ -129,7 +129,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * @param Container $app
      * @param string $args
      * @param string $path
-     * @return \DXMB\Modules\Module
+     * @return \dxmb\Modules\Module
      */
     abstract protected function createModule(...$args);
 
@@ -487,7 +487,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
     /**
      * Get module used for cli session.
      * @return string
-     * @throws \DXMB\Modules\Exceptions\ModuleNotFoundException
+     * @throws \dxmb\Modules\Exceptions\ModuleNotFoundException
      */
     public function getUsedNow() : string
     {
@@ -554,7 +554,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * Enabling a specific module.
      * @param string $name
      * @return void
-     * @throws \DXMB\Modules\Exceptions\ModuleNotFoundException
+     * @throws \dxmb\Modules\Exceptions\ModuleNotFoundException
      */
     public function enable($name)
     {
@@ -565,7 +565,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * Disabling a specific module.
      * @param string $name
      * @return void
-     * @throws \DXMB\Modules\Exceptions\ModuleNotFoundException
+     * @throws \dxmb\Modules\Exceptions\ModuleNotFoundException
      */
     public function disable($name)
     {

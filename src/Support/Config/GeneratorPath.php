@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Support\Config;
+namespace dxmb\Modules\Support\Config;
 
 class GeneratorPath
 {

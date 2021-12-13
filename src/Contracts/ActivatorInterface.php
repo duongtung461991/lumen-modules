@@ -1,8 +1,8 @@
 <?php
 
-namespace DXMB\Modules\Contracts;
+namespace dxmb\Modules\Contracts;
 
-use DXMB\Modules\Module;
+use dxmb\Modules\Module;
 
 interface ActivatorInterface
 {

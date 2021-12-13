@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Traits;
+namespace dxmb\Modules\Traits;
 
 trait ModuleCommandTrait
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace DXMB\Modules;
+namespace dxmb\Modules;
 
-use DXMB\Modules\Support\Stub;
+use dxmb\Modules\Support\Stub;
 
 class LumenModulesServiceProvider extends ModulesServiceProvider
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace DXMB\Modules\Contracts;
+namespace dxmb\Modules\Contracts;
 
-use DXMB\Modules\Exceptions\ModuleNotFoundException;
-use DXMB\Modules\Module;
+use dxmb\Modules\Exceptions\ModuleNotFoundException;
+use dxmb\Modules\Module;
 
 interface RepositoryInterface
 {
@@ -31,7 +31,7 @@ interface RepositoryInterface
     /**
      * Get modules as modules collection instance.
      *
-     * @return \DXMB\Modules\Collection
+     * @return \dxmb\Modules\Collection
      */
     public function toCollection();
 
@@ -157,7 +157,7 @@ interface RepositoryInterface
      * Delete a specific module.
      * @param string $module
      * @return bool
-     * @throws \DXMB\Modules\Exceptions\ModuleNotFoundException
+     * @throws \dxmb\Modules\Exceptions\ModuleNotFoundException
      */
     public function delete(string $module): bool;
 

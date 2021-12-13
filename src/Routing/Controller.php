@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Routing;
+namespace dxmb\Modules\Routing;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Json;
-use DXMB\Modules\Process\Installer;
+use dxmb\Modules\Json;
+use dxmb\Modules\Process\Installer;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

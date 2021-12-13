@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Process;
+namespace dxmb\Modules\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use DXMB\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Contracts\RepositoryInterface;
 use Symfony\Component\Process\Process;
 
 class Installer
@@ -25,7 +25,7 @@ class Installer
 
     /**
      * The module repository instance.
-     * @var \DXMB\Modules\Contracts\RepositoryInterface
+     * @var \dxmb\Modules\Contracts\RepositoryInterface
      */
     protected $repository;
 
@@ -90,7 +90,7 @@ class Installer
 
     /**
      * Set the module repository instance.
-     * @param \DXMB\Modules\Contracts\RepositoryInterface $repository
+     * @param \dxmb\Modules\Contracts\RepositoryInterface $repository
      * @return $this
      */
     public function setRepository(RepositoryInterface $repository)

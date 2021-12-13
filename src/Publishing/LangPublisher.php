@@ -1,8 +1,8 @@
 <?php
 
-namespace DXMB\Modules\Publishing;
+namespace dxmb\Modules\Publishing;
 
-use DXMB\Modules\Support\Config\GenerateConfigReader;
+use dxmb\Modules\Support\Config\GenerateConfigReader;
 
 class LangPublisher extends Publisher
 {

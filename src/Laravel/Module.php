@@ -1,12 +1,12 @@
 <?php
 
-namespace DXMB\Modules\Laravel;
+namespace dxmb\Modules\Laravel;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Foundation\ProviderRepository;
 use Illuminate\Support\Str;
-use DXMB\Modules\Module as BaseModule;
+use dxmb\Modules\Module as BaseModule;
 
 class Module extends BaseModule
 {

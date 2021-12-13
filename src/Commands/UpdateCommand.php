@@ -1,9 +1,9 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Traits\ModuleCommandTrait;
+use dxmb\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class UpdateCommand extends Command
@@ -37,7 +37,7 @@ class UpdateCommand extends Command
             return 0;
         }
 
-        /** @var \DXMB\Modules\Module $module */
+        /** @var \dxmb\Modules\Module $module */
         foreach ($this->laravel['modules']->getOrdered() as $module) {
             $this->updateModule($module->getName());
         }

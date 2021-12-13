@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules;
+namespace dxmb\Modules;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection as BaseCollection;

@@ -1,8 +1,8 @@
 <?php
 
-namespace DXMB\Modules\Publishing;
+namespace dxmb\Modules\Publishing;
 
-use DXMB\Modules\Migrations\Migrator;
+use dxmb\Modules\Migrations\Migrator;
 
 class MigrationPublisher extends AssetPublisher
 {

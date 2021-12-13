@@ -1,15 +1,15 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use ErrorException;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\Str;
-use DXMB\Modules\Contracts\RepositoryInterface;
-use DXMB\Modules\Module;
-use DXMB\Modules\Support\Config\GenerateConfigReader;
-use DXMB\Modules\Traits\ModuleCommandTrait;
+use dxmb\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Module;
+use dxmb\Modules\Support\Config\GenerateConfigReader;
+use dxmb\Modules\Traits\ModuleCommandTrait;
 use RuntimeException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;

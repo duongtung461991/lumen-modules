@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
-use DXMB\Modules\Support\Config\GenerateConfigReader;
-use DXMB\Modules\Support\Stub;
-use DXMB\Modules\Traits\ModuleCommandTrait;
+use dxmb\Modules\Support\Config\GenerateConfigReader;
+use dxmb\Modules\Support\Stub;
+use dxmb\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

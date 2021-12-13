@@ -1,13 +1,13 @@
 <?php
 
-namespace DXMB\Modules\Migrations;
+namespace dxmb\Modules\Migrations;
 
 // use Illuminate\Contracts\Foundation\Application;
 use Laravel\Lumen\Application;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use DXMB\Modules\Module;
-use DXMB\Modules\Support\Config\GenerateConfigReader;
+use dxmb\Modules\Module;
+use dxmb\Modules\Support\Config\GenerateConfigReader;
 
 class Migrator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

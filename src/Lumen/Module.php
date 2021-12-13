@@ -1,9 +1,9 @@
 <?php
 
-namespace DXMB\Modules\Lumen;
+namespace dxmb\Modules\Lumen;
 
 use Illuminate\Support\Str;
-use DXMB\Modules\Module as BaseModule;
+use dxmb\Modules\Module as BaseModule;
 
 class Module extends BaseModule
 {

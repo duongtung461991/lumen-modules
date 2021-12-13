@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Migrations\Migrator;
-use DXMB\Modules\Publishing\MigrationPublisher;
+use dxmb\Modules\Migrations\Migrator;
+use dxmb\Modules\Publishing\MigrationPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishMigrationCommand extends Command
@@ -46,7 +46,7 @@ class PublishMigrationCommand extends Command
     /**
      * Publish migration for the specified module.
      *
-     * @param \DXMB\Modules\Module $module
+     * @param \dxmb\Modules\Module $module
      */
     public function publish($module)
     {

@@ -1,6 +1,6 @@
 <?php
 
-use DXMB\Modules\Activators\FileActivator;
+use dxmb\Modules\Activators\FileActivator;
 
 return [
 
@@ -26,7 +26,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path() . '/vendor/DXMB/laravel-modules/src/Commands/stubs',
+        'path' => base_path() . '/vendor/dxmb/laravel-modules/src/Commands/stubs',
         'files' => [
             'routes/web' => 'Routes/web.php',
             'scaffold/config' => 'Config/config.php',
@@ -201,10 +201,10 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'DXMB',
+        'vendor' => 'dxmb',
         'author' => [
             'name' => 'Mohammad Baladi',
-            'email' => 'DXMB5923@gmail.com',
+            'email' => 'dxmb5923@gmail.com',
         ],
     ],
 

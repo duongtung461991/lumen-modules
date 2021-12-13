@@ -1,11 +1,11 @@
 <?php
 
-namespace DXMB\Modules\Publishing;
+namespace dxmb\Modules\Publishing;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Contracts\PublisherInterface;
-use DXMB\Modules\Contracts\RepositoryInterface;
-use DXMB\Modules\Module;
+use dxmb\Modules\Contracts\PublisherInterface;
+use dxmb\Modules\Contracts\RepositoryInterface;
+use dxmb\Modules\Module;
 
 abstract class Publisher implements PublisherInterface
 {
@@ -87,7 +87,7 @@ abstract class Publisher implements PublisherInterface
     /**
      * Get module instance.
      *
-     * @return \DXMB\Modules\Module
+     * @return \dxmb\Modules\Module
      */
     public function getModule()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Migrations\Migrator;
-use DXMB\Modules\Traits\MigrationLoaderTrait;
+use dxmb\Modules\Migrations\Migrator;
+use dxmb\Modules\Traits\MigrationLoaderTrait;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -27,7 +27,7 @@ class MigrateResetCommand extends Command
     protected $description = 'Reset the modules migrations.';
 
     /**
-     * @var \DXMB\Modules\Contracts\RepositoryInterface
+     * @var \dxmb\Modules\Contracts\RepositoryInterface
      */
     protected $module;
 

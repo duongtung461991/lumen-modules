@@ -1,6 +1,6 @@
 <?php
 
-namespace DXMB\Modules\Support\Migrations;
+namespace dxmb\Modules\Support\Migrations;
 
 class NameParser
 {

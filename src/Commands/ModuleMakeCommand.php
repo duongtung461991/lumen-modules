@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Contracts\ActivatorInterface;
-use DXMB\Modules\Generators\ModuleGenerator;
+use dxmb\Modules\Contracts\ActivatorInterface;
+use dxmb\Modules\Generators\ModuleGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

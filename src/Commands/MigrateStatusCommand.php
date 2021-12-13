@@ -1,10 +1,10 @@
 <?php
 
-namespace DXMB\Modules\Commands;
+namespace dxmb\Modules\Commands;
 
 use Illuminate\Console\Command;
-use DXMB\Modules\Migrations\Migrator;
-use DXMB\Modules\Module;
+use dxmb\Modules\Migrations\Migrator;
+use dxmb\Modules\Module;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -25,7 +25,7 @@ class MigrateStatusCommand extends Command
     protected $description = 'Status for all module migrations';
 
     /**
-     * @var \DXMB\Modules\Contracts\RepositoryInterface
+     * @var \dxmb\Modules\Contracts\RepositoryInterface
      */
     protected $module;
 
