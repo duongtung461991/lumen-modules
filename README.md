@@ -11,10 +11,10 @@ This package is a re-published, re-organised and maintained version of [laravel-
 
 To install through Composer, by run the following command:
 
-`composer require dxmb5923/lumen-modules`
- 
+`composer require dxmb/lumen-modules`
+
  after install complete, load the config and the service provider in `bootstrap/app.php`
- 
+
  	$app->register(dxmb\Modules\LumenModulesServiceProvider::class);
 
 By default the module classes are not loaded automatically. You can autoload your modules using `psr-4`. so add bellow  code in your composer.json :
@@ -31,12 +31,3 @@ By default the module classes are not loaded automatically. You can autoload you
 ### Tip: don't forget to run composer dump-autoload afterwards
 
 for more info and full documentation visit https://nwidart.com/laravel-modules/
-
-### Credits
-[Nicolas Widart](https://github.com/nwidart "Nicolas Widart")
-
-### Change To Lumen Support
-[Mohammad Baladi](https://github.com/dxmb5923 "Mohammad Baladi")
-
-### License
-The MIT License (MIT).
